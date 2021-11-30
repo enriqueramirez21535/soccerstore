@@ -11405,16 +11405,19 @@ p {
     margin-right: 0;
   }
 }
+/*added bacgrkiund visibility and animation anumation timing*/
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  background-visibility:hidden;
+  animation-timing-function:ease-in-out;
+  background-image: url("../assets/img/Project/1.jpg");
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
