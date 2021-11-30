@@ -11417,7 +11417,19 @@ header.masthead {
   background-size: cover;
   background-visibility:hidden;
   animation-timing-function:ease-in-out;
+  animation:slideBg 8s linear infinite 0s;
   background-image: url("../assets/img/Project/1.jpg");
+}
+@keyframes{
+  0% {
+    background-image: url("../assets/img/Project/1.jpg");
+  }
+   25% {
+    background-image: url("../assets/img/Project/2.jpg");
+  }
+   50% {
+    background-image: url("../assets/img/Project/1.jpg");
+  }
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
